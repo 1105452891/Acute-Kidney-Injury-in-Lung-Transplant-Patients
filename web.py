@@ -219,10 +219,10 @@ def main():
         mg_label_map = {1: '1.7-2', 2: '≤1.7', 3: '>2'}
         magnesium_group_label = st.selectbox("镁分组", options=[1, 2, 3], format_func=lambda x: mg_label_map.get(x, str(x)), index=0)
         aptt = st.number_input("APTT（秒）", value=30.0, step=0.1, min_value=10.0, max_value=100.0)
-        bun = st.number_input("血尿素氮", value=5.0, step=0.1)
+        bun = st.number_input("血尿素氮（mmol/L）", value=5.0, step=0.1)
 
     with col3:
-        hb = st.number_input("血红蛋白", value=120.0, step=1.0)
+        hb = st.number_input("血红蛋白（g/L）", value=120.0, step=1.0)
         alp = st.number_input("碱性磷酸酶（U/L）", value=80.0, step=1.0)
         mg_cv = st.number_input("镁变异系数", value=5.0, step=0.1)
 
