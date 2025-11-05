@@ -91,11 +91,11 @@ variable_descriptions = {
     'Hypertension': '是否有高血压（0=无，1=有）',
     'APTT_.s': 'APTT（秒）',
     'APTT_.s.': 'APTT（秒）',
-    'Hb': '血红蛋白（g/L 或 g/dL，按模型口径）',
+    'Hb': '血红蛋白（g/L ）',
     'ALP': '碱性磷酸酶（U/L）',
     'K': '血钾（mmol/L）',
-    'BUN': '血尿素氮（mmol/L 或 mg/dL，按模型口径）',
-    'Magnesium_CV': '镁变异系数（% 或比例，按模型口径）'
+    'BUN': '血尿素氮（mmol/L ）',
+    'Magnesium_CV': '镁变异系数（% 或比例）'
 }
 
 # ============== 工具函数 ==================
